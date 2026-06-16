@@ -79,15 +79,15 @@ docker-compose down
 
 - First create a docker image from Dockerfile
 ```bash
-docker build -t flaskapp .
+docker build -t flaskapp.
 ```
 
-- Now, make sure that you have created a network using following command
+- Now, make sure that you have created a network using the following command
 ```bash
 docker network create twotier
 ```
 
-- Attach both the containers in the same network, so that they can communicate with each other
+- Attach both containers to the same network, so that they can communicate with each other
 
 i) MySQL container 
 ```bash
