@@ -75,9 +75,9 @@ To stop and remove the Docker containers, press `Ctrl+C` in the terminal where t
 docker-compose down
 ```
 
-## To run this two-tier application using  without docker-compose
+## To run this two-tier application  without Docker Compose
 
-- First create a docker image from Dockerfile
+- First, create a Docker image from Dockerfile
 ```bash
 docker build -t flaskapp.
 ```
